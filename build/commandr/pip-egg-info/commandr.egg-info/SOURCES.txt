@@ -1,7 +1,0 @@
-commandr/__init__.py
-commandr/commandr.py
-commandr/functools_util.py
-pip-egg-info/commandr.egg-info/PKG-INFO
-pip-egg-info/commandr.egg-info/SOURCES.txt
-pip-egg-info/commandr.egg-info/dependency_links.txt
-pip-egg-info/commandr.egg-info/top_level.txt
