@@ -9,8 +9,8 @@ Output: `index.html 33: images/img/header_image.jpeg`
 
 
 Dependencies
-================
-The excellent commandr library: tellapart/commandr
+==============
+[beautifulsoup4](http://www.crummy.com/software/BeautifulSoup/)
 
 
 TODO 
@@ -22,5 +22,6 @@ Lots.
 and url prefix
 - Command line option to limit file extensions scanned
 - Command line option to scan a specific src file
+- Plugins for common template languages
 
 
