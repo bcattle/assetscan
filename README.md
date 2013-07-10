@@ -21,7 +21,9 @@ Lots.
 - Validate that files actually exist given a supplied static path
 and url prefix
 - Command line option to limit file extensions scanned
-- Command line option to scan a specific src file
+- Turn into a webapp where you can drop a file and see its output
 - Plugins for common template languages
+- Command line option to delete files that aren't referenced 
+
 
 

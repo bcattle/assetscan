@@ -24,7 +24,8 @@ def scan_html(path):
     """
     EXCLUDE = ['#']
 
-    file_contents = open(path).read()
+    with open(path) as f:
+        file_contents = f.read()
     soup = BeautifulSoup(file_contents)
 
     def flatten_list(l):
@@ -99,6 +100,13 @@ for asset in found_assets:
         url_linked_assets.append(asset)
     else:
         local_assets_unique.add(asset)
+
+
+# Check that files exist?
+# try:
+#    with open('filename'): pass
+# except IOError:
+#    print 'Oh dear.'
 
 
 # Sort by extension and print
