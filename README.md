@@ -10,7 +10,7 @@ Output: `index.html 33: images/img/header_image.jpeg`
 
 Dependencies
 ================
-The excellent commandr library https://github.com/tellapart/commandr
+The excellent commandr library: tellapart/commandr
 
 
 TODO 
