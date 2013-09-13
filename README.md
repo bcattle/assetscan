@@ -1,7 +1,7 @@
 assetscan
 ================
 
-Recursively scans directories looking for HTML and CSS files
+Recursively scans directories looking for HTML and CSS files. Prints out the other files that they depend on. 
 
 Usage: `scan.py [dir or file to scan]`
 
