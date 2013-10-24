@@ -69,7 +69,8 @@ def run_parser(path):
     print 'Found %s' % path
     path_ext = path.split('.')[-1]
     file_assets = FILE_PARSERS[path_ext](path)
-    found_assets.extend(file_assets)
+    if file_assets:
+        found_assets.extend(file_assets)
     return file_assets
 
 
